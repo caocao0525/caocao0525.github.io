@@ -88,9 +88,15 @@
       display: inline-block;
       border-radius: 5px;
       }
-      td.date {
-      width: 140px;        
-      white-space: normal; 
+      .cv td:nth-child(1),
+      .cv td:nth-child(2),
+      .cv td:nth-child(3) {
+      width: 1%;
+      white-space: nowrap;
+      }  
+      .cv td:nth-child(2) {
+      text-align: center;
+      padding: 0 5px;
       }
     /* Additional styling as needed */
 
@@ -213,7 +219,7 @@ Institute for Quantitative Biosciences (IQB), The University of Tokyo
       </tr>
     </table>
         <p class="title"> <i class="fas fa-briefcase"></i> Industry Experience </p>
-        <table>
+        <table class="cv">
       <tr>
       <td>Jul. 2007.</td>
       <td> - </td>
